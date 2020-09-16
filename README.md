@@ -5,7 +5,7 @@ gtutr is an interactive feedback system designed to assist students with writing
 
 ## Artifact Contents ##
 
-After extracting the artifact zip **gtutr-artifact.zip**, the extracted folder contains the following:
+After extracting the artifact zip **gtutr-artifact.zip**, the extracted folder contains the following files:
 
 1. **gtutr.zip** : The file containing the artifact sources. This file contains the following subfolders:
     * **grammarProject** directory which contains the gtutr project sources
