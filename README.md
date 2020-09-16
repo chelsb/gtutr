@@ -9,8 +9,9 @@ After extracting the artifact zip **gtutr-artifact.zip**, the extracted folder c
 
 1. **gtutr.zip** : The file containing the artifact sources. This file contains the following subfolders:
     * **grammarProject** directory which contains the gtutr project sources
-    *  **grammars** directory which contains example grammars for student submissions
-    *   **testcases** directory which contains examples test suites for admin submissions
+    * **grammars** directory which contains example grammars for student submissions
+    * **testcases** directory which contains examples test suites for admin submissions
+    * **default_data_sql** file which can be used to generate the default database in the case of local execution of gtutr
 2. **gtutr.pdf** : The accepted version of the paper
 4. **README.md** instructions for the artifact usage
 
@@ -21,20 +22,33 @@ There are two options for running gtutr.
 1. To access the already hosted version, go to the URL:
 
     [https://grammar-prod.zettel.co.za/](https://grammar-prod.zettel.co.za/)
+    
 
 2. To run the project on your local machine, extract the project from the zip file
     ```
     gtutr.zip
     ```
     
-    Inside the 'grammarProject' directory, run the following commands:
+    Set up a postgrSQL database and set the database credentials in the file **gtutr/grammarProject/src/main/resources/application.properties**. For example:
+    
+    ```
+    spring.datasource.url=jdbc:postgresql://your-server/your-db
+    spring.datasource.username=your-user
+    spring.datasource.password=your-password
+   ```
+   
+    The file **default_data_sql.txt** contains the necessary SQL to generate the default state of the database, and can be run or imported. 
+    
+    Inside the **grammarProject** directory, run the following commands:
+    
     ```
     chmod +x run.sh
     ./run.sh
     ```
 
     Then go to the following URL:
-     ```
+    
+    ```
     http://localhost:8080
     ```
     
