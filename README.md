@@ -5,10 +5,12 @@ gtutr is an interactive feedback system designed to assist students with writing
 
 The submitted artifact contains the following:
 
-1. **grammarProject** directory which contains the gtutr project sources
-2. **grammars** directory which contains example grammars for student submissions
-3. **testcases** directory which contains examples test suites for admin submissions
-4. **README.txt** is the README file for the artifact submission
+1. **gtutr.zip** : The file containing the artifact sources. This file contains the following subfolders:
+    * **grammarProject** directory which contains the gtutr project sources
+    *  **grammars** directory which contains example grammars for student submissions
+    *   **testcases** directory which contains examples test suites for admin submissions
+2. **gtutr.pdf** : The accepted version of the paper
+4. **README.md** instructions for the artifact usage
 
 ## How To Run ##
 
