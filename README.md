@@ -20,7 +20,7 @@ There are two options for running gtutr.
 
 1. To access the already hosted version, go to the URL:
 
-    https://grammar-prod.zettel.co.za/
+    [https://grammar-prod.zettel.co.za/](https://grammar-prod.zettel.co.za/)
 
 2. To run the project on your local machine, extract the project from the zip file
     ```
