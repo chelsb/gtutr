@@ -1,11 +1,11 @@
 
-Please download the artifact zip file [here](https://github.com/chelsb/gtutr/archive/artifact_updated.zip)
+Please download the artifact zip file [here](https://github.com/chelsb/gtutr/archive/artifact_update.zip)
 
 gtutr is an interactive feedback system designed to assist students with writing grammars. The tool uses gamification to prevent students from being overloaded with too many failing test cases, and encourages independent problem solving by giving away as little information as possible. gtutr has access to test suites that can be used to evaluate student submissions, after which the tool attempts to identify and reduce the redundancy in the feedback that is given to the student. This helps direct students to possible error locations in their grammars. Students can prompt the system for more information if needed, and the tool can also highlight rules that are the most likely to contain faults. gtutr has been implemented for ANTLR, although the principles used can be generalised.
 
 ## Artifact Contents ##
 
-After extracting the artifact zip **gtutr-artifact_updated.zip**, the extracted folder contains the following files:
+After extracting the artifact zip **gtutr-artifact_update.zip**, the extracted folder contains the following files:
 
 1. **gtutr.zip** : The file containing the artifact sources. This file contains the following subfolders:
     * **grammarProject** directory which contains the gtutr project sources
